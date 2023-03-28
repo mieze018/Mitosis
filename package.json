@@ -6,13 +6,13 @@
     "start": "watch 'yarn run mitosis' ./src ./overrides"
   },
   "dependencies": {
-    "@builder.io/mitosis": "workspace:*",
-    "@builder.io/mitosis-cli": "workspace:*",
+    "@builder.io/mitosis": "^0.0.93",
+    "@builder.io/mitosis-cli": "^0.0.52",
     "node-fetch": "^2.6.1",
     "seedrandom": "^3.0.5"
   },
   "devDependencies": {
-    "@builder.io/eslint-plugin-mitosis": "workspace:*",
+    "@builder.io/eslint-plugin-mitosis": "^0.0.14",
     "@types/jest": "^27.4.0",
     "@types/node-fetch": "^2.5.12",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
